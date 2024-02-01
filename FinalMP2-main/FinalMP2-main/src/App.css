@@ -1,0 +1,23 @@
+body {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer/Edge */
+  overflow-y: scroll; /* Always show a vertical scrollbar */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+/* To ensure no margin or padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+font-family: 'Badoom';  
+src: url('/src/assets/Gameplay.ttf') format('woff2');  
+
+  font-weight: normal;
+  font-style: normal; 
+ } 
